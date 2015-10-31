@@ -21,7 +21,7 @@
     "semantic-release": "^4.3.5"
   },
   "gh-pages-deploy": {
-    "noprompt": false,
+    "noprompt": true,
     "staticpath": "demo"
   }
 }
