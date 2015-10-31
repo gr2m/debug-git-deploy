@@ -16,6 +16,6 @@ var commands = [
   'git config user.name "gr2m"'
 ]
 commands.forEach(function (command) {
-  console.log('[authorize-push] %s', command // .replace(GH_TOKEN, '***GH_TOKEN***'))
+  console.log('[authorize-push] %s', command) // .replace(GH_TOKEN, '***GH_TOKEN***'))
   exec(command)
 })
