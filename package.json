@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/gr2m/debug-git-deploy#readme",
   "devDependencies": {
-    "gh-pages-deploy": "git+https://github.com/gr2m/gh-pages-deploy.git",
+    "gh-pages-deploy": "^0.3.0",
     "semantic-release": "^4.3.5"
   },
   "gh-pages-deploy": {
