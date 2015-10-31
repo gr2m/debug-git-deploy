@@ -9,6 +9,7 @@ before_install:
 before_script:
   - npm prune
 script:
+  - ./bin/authorize-push.js
   - gh-pages-deploy
 branches:
   except:
